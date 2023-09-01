@@ -1,13 +1,21 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import UserComponent from "./Components/Users/Users";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
 
-  const [ todos, setTodos ] = useState([])
+
   return (
     <>
-    
-    <h1>Hello, world!</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/Home"></Route>
+          <Route></Route>
+          <Route></Route>
+        </Routes>
+      </BrowserRouter>
     </>
+
   );
 }
 
