@@ -10,8 +10,9 @@ function Home() {
 
     return (
         <>
-            <Header />
 
+        <Header/>
+        
             <main>
                 <aside>
                     <h2>Transformando saúde</h2>

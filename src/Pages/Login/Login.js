@@ -1,6 +1,11 @@
+import CadastroForm from "../../Components/CadastroForm/CadastroForm"
+
 function Login() {
-    return(
-        <p>Esta é a página de Login</p>
+
+    return (
+        <>
+            <CadastroForm />
+        </>
     )
 }
 

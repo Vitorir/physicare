@@ -5,6 +5,10 @@
     /* border: 1px solid red; */
 }
 
+ul {
+    text-decoration: none;
+}
+
 li {
     text-decoration: none;
 }   

@@ -1,24 +1,26 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #ffffff;
-    color: #010101;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #010101;
+  position: center;
+  top: 0;
+}
 
-  .logo img {
-    max-height: 20px;
-  }
+.logo img {
+  max-height: 20px;
+}
 
-  .nav-link {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #010101;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #010101;
+  font-weight: bold;
+  transition: color 0.3s;
+}
 
-  .nav-link:hover {
-    color: #FFFFFF;
-  }
+.nav-link:hover {
+  color: #FFFFFF;
+}
